@@ -481,7 +481,7 @@ Ymacron
 );
 date = "2016-07-28 15:58:15 +0000";
 designer = "vernon adams";
-designerURL = www.newtypography.co.uk;
+designerURL = "http://www.newtypography.co.uk";
 familyName = Francois;
 fontMaster = (
 {
