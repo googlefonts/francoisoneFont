@@ -53,10 +53,10 @@ name = trademark;
 value = "Francois is a trademark of vernon adams.";
 }
 );
-date = "2013-03-22 18:15:49 +0000";
+date = "2016-07-29 09:09:50 +0000";
 designer = "vernon adams";
-designerURL = www.newtypography.co.uk;
-familyName = "Francois One GV";
+designerURL = http//www.newtypography.co.uk;
+familyName = "Francois One";
 featurePrefixes = (
 {
 automatic = 1;
@@ -20121,11 +20121,11 @@ period = -36;
 };
 };
 manufacturer = "vernon adams";
-manufacturerURL = www.newtypography.co.uk;
+manufacturerURL = "http://www.newtypography.co.uk";
 unitsPerEm = 2048;
 userData = {
 UFOFormat = 2;
 };
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
