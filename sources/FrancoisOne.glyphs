@@ -51,6 +51,10 @@ value = newt;
 {
 name = trademark;
 value = "Francois is a trademark of vernon adams.";
+},
+{
+name = "New Value";
+value = "New Parameter";
 }
 );
 date = "2016-07-29 09:09:50 +0000";
