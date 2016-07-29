@@ -4574,29 +4574,9 @@ width = 977;
 unicode = 0162;
 },
 {
-glyphname = Tcommaaccent;
-lastChange = "2016-07-08 21:49:47 +0000";
-layers = (
-{
-components = (
-{
-name = T;
-},
-{
-name = cedilla;
-transform = "{1, 0, 0, 1, 190, 0}";
-}
-);
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 977;
-}
-);
-unicode = 021A;
-},
-{
 color = 4;
 glyphname = Tcommaaccent;
-lastChange = "2016-07-29 10:28:16 +0000";
+lastChange = "2016-07-29 15:03:34 +0000";
 layers = (
 {
 components = (
@@ -10862,26 +10842,6 @@ width = 738;
 }
 );
 unicode = 0163;
-},
-{
-glyphname = tcommaaccent;
-lastChange = "2016-07-01 10:56:26 +0000";
-layers = (
-{
-components = (
-{
-name = cedilla;
-transform = "{1, 0, 0, 1, 205, -26}";
-},
-{
-name = t;
-}
-);
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 738;
-}
-);
-unicode = 021B;
 },
 {
 color = 4;
