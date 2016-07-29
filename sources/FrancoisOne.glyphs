@@ -104,11 +104,6 @@ name = case;
 automatic = 1;
 code = "sub f f l by f_f_l;\012sub f f i by f_f_i;\012sub f i by fi;\012sub f f by f_f;\012sub f l by fl;\012";
 name = liga;
-},
-{
-automatic = 1;
-code = "sub zero by zero.zero;\012";
-name = zero;
 }
 );
 fontMaster = (
