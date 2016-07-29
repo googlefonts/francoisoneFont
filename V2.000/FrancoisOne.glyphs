@@ -2954,7 +2954,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2016-07-08 21:55:55 +0000";
+lastChange = "2016-07-29 09:32:41 +0000";
 layers = (
 {
 anchors = (
@@ -3206,7 +3206,7 @@ unicode = 1ED6;
 },
 {
 glyphname = Odblgrave;
-lastChange = "2016-07-01 10:56:26 +0000";
+lastChange = "2016-07-29 09:32:41 +0000";
 layers = (
 {
 components = (
@@ -19163,7 +19163,6 @@ Gdotaccent = -14;
 asterisk = -32;
 c = -14;
 d = -10;
-f = -9;
 four = -32;
 guillemetleft = -35;
 guilsinglleft = -37;
@@ -19173,7 +19172,6 @@ icircumflex = 19;
 idieresis = 103;
 itilde = 27;
 jcircumflex = 25;
-schwa = -7;
 t = -17;
 };
 F = {
@@ -19224,7 +19222,6 @@ G = {
 idieresis = 41;
 };
 H = {
-c = -7;
 g = -10;
 hyphen = -20;
 };
@@ -19237,15 +19234,12 @@ j = 110;
 };
 J = {
 AE = -14;
-c = -7;
 comma = -19;
 hyphen = -17;
 ibreve = 50;
 idieresis = 36;
-m = -7;
 period = -20;
 quotedblbase = -19;
-z = -7;
 };
 K = {
 G = -23;
@@ -19264,7 +19258,6 @@ ibreve = 157;
 idieresis = 143;
 imacron = 11;
 itilde = 30;
-schwa = -9;
 t = -18;
 };
 Kcommaaccent = {
@@ -19301,14 +19294,12 @@ ibreve = 39;
 };
 P = {
 c = -13;
-d = -8;
 };
 Q = {
 idieresis = 26;
 };
 R = {
 c = -12;
-d = -7;
 };
 T = {
 G = -23;
@@ -19348,14 +19339,11 @@ quotedblright = -23;
 quotesingle = -19;
 trademark = -38;
 x = -20;
-z = -8;
 };
 U = {
-c = -7;
 m = -10;
 };
 V = {
-G = -8;
 c = -51;
 d = -42;
 eth = 10;
@@ -19438,7 +19426,6 @@ Lslash = 60;
 X = -29;
 Z = -49;
 f = 28;
-germandbls = 1;
 icircumflex = 15;
 idieresis = 67;
 jcircumflex = 21;
@@ -19534,7 +19521,6 @@ zero = -31;
 };
 c = {
 X = -14;
-Z = -8;
 braceright = -32;
 bracketright = -27;
 parenright = -26;
@@ -19542,7 +19528,6 @@ quotedblright = -24;
 quotesingle = -21;
 seven = -44;
 trademark = -44;
-x = -7;
 };
 comma = {
 four = -52;
@@ -19605,7 +19590,6 @@ comma = -27;
 period = -30;
 quotedblbase = -27;
 trademark = 16;
-x = -7;
 };
 exclamdown = {
 ibreve = 63;
@@ -19615,7 +19599,6 @@ f = {
 J = -16;
 ampersand = -12;
 asterisk = 27;
-c = -9;
 comma = -46;
 eth = -31;
 four = -22;
@@ -19644,7 +19627,6 @@ trademark = 38;
 germandbls = {
 braceright = -32;
 bracketright = -29;
-f = -8;
 parenright = -26;
 quotedblleft = -29;
 quotedblright = -35;
@@ -19765,7 +19747,6 @@ quoteright = 22;
 trademark = 65;
 };
 k = {
-G = -7;
 c = -20;
 d = -11;
 eth = -14;
@@ -19818,7 +19799,6 @@ quotedbl = 70;
 quotedblright = 65;
 quoteright = 65;
 quotesingle = 70;
-trademark = -6;
 };
 one = {
 backslash = -23;
@@ -19887,7 +19867,6 @@ plus = {
 seven = -42;
 };
 q = {
-Z = -7;
 seven = -42;
 trademark = -31;
 };
@@ -19991,7 +19970,6 @@ s = -16;
 slash = -38;
 };
 r = {
-c = -8;
 eth = -35;
 };
 registered = {
@@ -20075,15 +20053,10 @@ minus = -61;
 periodcentered = -51;
 };
 u = {
-Z = -8;
 seven = -41;
 };
 v = {
-c = -6;
 eth = -16;
-};
-w = {
-eth = -9;
 };
 x = {
 G = -14;
@@ -20100,11 +20073,9 @@ hyphen = -58;
 schwa = -12;
 };
 y = {
-c = -6;
 eth = -12;
 };
 z = {
-c = -6;
 four = -35;
 guillemetleft = -38;
 guilsinglleft = -41;
