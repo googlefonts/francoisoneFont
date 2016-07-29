@@ -55,7 +55,7 @@ value = "Francois is a trademark of vernon adams.";
 );
 date = "2016-07-29 09:09:50 +0000";
 designer = "vernon adams";
-designerURL = http//www.newtypography.co.uk;
+designerURL = "http://www.newtypography.co.uk";
 familyName = "Francois One";
 featurePrefixes = (
 {
