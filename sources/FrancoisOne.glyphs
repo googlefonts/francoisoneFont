@@ -1,5 +1,5 @@
 {
-.appVersion = "913";
+.appVersion = "926";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2011, The Francois One Project Authors (vern@newtypography.co.uk)";
+copyright = "Copyright 2011 The Francois One Project Authors (contact@sansoxygen.com)";
 customParameters = (
 {
 name = license;
@@ -22,29 +22,19 @@ name = vendorID;
 value = newt;
 },
 {
-name = panose;
-value = (
-"2",
-"0",
-"5",
-"3",
-"4",
-"0",
-"0",
-"2",
-"0",
-"4"
-);
-},
-{
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-07-29 09:09:50 +0000";
-designer = "vernon adams";
-designerURL = "http://www.newtypography.co.uk";
+designer = "Vernon Adams";
+designerURL = "http://www.sansoxygen.com";
+disablesNiceNames = 1;
 familyName = "Francois One";
 featurePrefixes = (
 {
@@ -114,19 +104,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1089;
+value = 1351;
 },
 {
 name = winDescent;
-value = 329;
+value = 332;
 },
 {
-name = underlineThickness;
-value = 50;
+name = hheaLineGap;
+value = 0;
 },
 {
-name = underlinePosition;
-value = -75;
+name = hheaAscender;
+value = 1089;
+},
+{
+name = hheaDescender;
+value = -329;
 }
 );
 descender = -327;
@@ -7256,7 +7250,7 @@ unicode = 0207;
 {
 color = 4;
 glyphname = emacron;
-lastChange = "2016-08-01 13:31:59 +0000";
+lastChange = "2016-10-05 15:59:08 +0000";
 layers = (
 {
 components = (
@@ -7460,6 +7454,60 @@ width = 471;
 }
 );
 unicode = 1EBD;
+},
+{
+color = 4;
+glyphname = schwa;
+lastChange = "2016-07-29 15:34:05 +0000";
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+paths = (
+{
+closed = 1;
+nodes = (
+"368 -16 OFFCURVE",
+"437 106 OFFCURVE",
+"437 278 CURVE SMOOTH",
+"437 449 OFFCURVE",
+"369 570 OFFCURVE",
+"230 570 CURVE SMOOTH",
+"129 570 OFFCURVE",
+"70 506 OFFCURVE",
+"44 415 CURVE",
+"150 375 LINE",
+"156 386 OFFCURVE",
+"185 466 OFFCURVE",
+"229 466 CURVE SMOOTH",
+"279 466 OFFCURVE",
+"297 366 OFFCURVE",
+"297 295 CURVE",
+"28 295 LINE",
+"27 286 OFFCURVE",
+"26 270 OFFCURVE",
+"26 247 CURVE SMOOTH",
+"26 157 OFFCURVE",
+"50 -16 OFFCURVE",
+"223 -16 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"183 81 OFFCURVE",
+"163 139 OFFCURVE",
+"163 214 CURVE",
+"297 214 LINE",
+"297 144 OFFCURVE",
+"267 81 OFFCURVE",
+"224 81 CURVE SMOOTH"
+);
+}
+);
+width = 471;
+}
+);
+unicode = 0259;
 },
 {
 color = 4;
@@ -10673,60 +10721,6 @@ width = 571;
 }
 );
 unicode = 00DF;
-},
-{
-color = 4;
-glyphname = schwa;
-lastChange = "2016-07-29 15:34:05 +0000";
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-paths = (
-{
-closed = 1;
-nodes = (
-"368 -16 OFFCURVE",
-"437 106 OFFCURVE",
-"437 278 CURVE SMOOTH",
-"437 449 OFFCURVE",
-"369 570 OFFCURVE",
-"230 570 CURVE SMOOTH",
-"129 570 OFFCURVE",
-"70 506 OFFCURVE",
-"44 415 CURVE",
-"150 375 LINE",
-"156 386 OFFCURVE",
-"185 466 OFFCURVE",
-"229 466 CURVE SMOOTH",
-"279 466 OFFCURVE",
-"297 366 OFFCURVE",
-"297 295 CURVE",
-"28 295 LINE",
-"27 286 OFFCURVE",
-"26 270 OFFCURVE",
-"26 247 CURVE SMOOTH",
-"26 157 OFFCURVE",
-"50 -16 OFFCURVE",
-"223 -16 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"183 81 OFFCURVE",
-"163 139 OFFCURVE",
-"163 214 CURVE",
-"297 214 LINE",
-"297 144 OFFCURVE",
-"267 81 OFFCURVE",
-"224 81 CURVE SMOOTH"
-);
-}
-);
-width = 471;
-}
-);
-unicode = 0259;
 },
 {
 color = 4;
@@ -13964,21 +13958,33 @@ unicode = 005F;
 },
 {
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2016-07-29 15:34:05 +0000";
+lastChange = "2016-10-05 15:56:04 +0000";
 layers = (
 {
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, 89}";
+}
+);
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 293;
+width = 252;
 }
 );
 },
 {
 glyphname = periodcentered.loclCAT;
-lastChange = "2016-07-29 15:34:05 +0000";
+lastChange = "2016-10-05 15:54:46 +0000";
 layers = (
 {
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, -8}";
+}
+);
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 293;
+width = 252;
 }
 );
 },
@@ -14718,11 +14724,11 @@ unicode = 00A0;
 {
 color = 4;
 glyphname = CR;
-lastChange = "2016-07-29 15:34:05 +0000";
+lastChange = "2016-10-05 15:40:52 +0000";
 layers = (
 {
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 293;
+width = 244;
 }
 );
 unicode = 000D;
@@ -20377,52 +20383,6 @@ width = 428;
 );
 },
 {
-color = 4;
-glyphname = uni000A;
-lastChange = "2016-07-29 10:28:16 +0000";
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 0;
-}
-);
-unicode = 000A;
-},
-{
-color = 4;
-glyphname = uni0009;
-lastChange = "2016-07-29 10:28:16 +0000";
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 0;
-}
-);
-unicode = 0009;
-},
-{
-color = 4;
-glyphname = uni0002;
-lastChange = "2016-07-29 10:28:16 +0000";
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 0;
-}
-);
-unicode = 0002;
-},
-{
-glyphname = null;
-lastChange = "2016-07-29 15:34:05 +0000";
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 293;
-}
-);
-},
-{
 glyphname = IJacute;
 lastChange = "2016-08-02 12:02:30 +0000";
 layers = (
@@ -20473,19 +20433,36 @@ layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 width = 524;
 }
 );
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-05 15:40:52 +0000";
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 0;
 }
 );
-disablesNiceNames = 1;
+unicode = 0000;
+}
+);
 instances = (
 {
 customParameters = (
 {
-name = postscriptFontName;
-value = "FrancoisOne-Regular";
-},
-{
-name = postscriptFullName;
-value = "Francois One";
+name = panose;
+value = (
+"2",
+"0",
+"5",
+"3",
+"4",
+"0",
+"0",
+"2",
+"0",
+"4"
+);
 }
 );
 instanceInterpolations = {
@@ -21479,8 +21456,8 @@ period = -17.5781;
 };
 };
 };
-manufacturer = "vernon adams";
-manufacturerURL = "http://www.newtypography.co.uk";
+manufacturer = "Vernon Adams";
+manufacturerURL = "http://www.sansoxygen.com";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
