@@ -3,7 +3,7 @@
 DisplayStrings = (
 "HHHHHHHH\012OOOOOOOO\012OHOHOnceoODO\012Ohaiasdklajseu AKDHESIONcoidonuehllo\012adhesioncul\012/n_arch/n_arch no/n_arch nnonHSailornsneH&OA\012nnnnnn\012hnononunH\012\012ladhuesionc oteOHIOOoneion A",
 "HHH OOO HOHOHO AAA ABA ACA ADA AEA AFA AGA AHA AIA AJA AKA ALA AMA ANA AOA APA AQA ARA ASA ATA AUA AVA AWA AXA AYA AZA\012\012OOGOO HHGHH",
-"wx wy wz\012vx vy vz\012yx yy yzno"
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 );
 classes = (
 {
@@ -1171,7 +1171,7 @@ unicode = 010A;
 },
 {
 glyphname = D;
-lastChange = "2017-10-13 00:32:11 +0000";
+lastChange = "2017-10-13 02:45:46 +0000";
 layers = (
 {
 anchors = (
@@ -1231,12 +1231,13 @@ nodes = (
 );
 }
 );
-width = 555;
+width = 556;
 }
 );
 leftKerningGroup = STRAIGHT;
 leftMetricsKey = H;
 rightKerningGroup = ROUND;
+rightMetricsKey = O;
 unicode = 0044;
 },
 {
@@ -2670,7 +2671,7 @@ unicode = 0128;
 },
 {
 glyphname = J;
-lastChange = "2017-10-13 00:32:11 +0000";
+lastChange = "2017-10-13 01:07:52 +0000";
 layers = (
 {
 anchors = (
@@ -2717,11 +2718,12 @@ nodes = (
 );
 }
 );
-width = 354;
+width = 348;
 }
 );
-leftKerningGroup = OPEN;
+leftKerningGroup = J;
 rightKerningGroup = STRAIGHT;
+rightMetricsKey = H;
 unicode = 004A;
 },
 {
