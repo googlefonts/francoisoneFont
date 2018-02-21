@@ -10,7 +10,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2011 The Francois One Project Authors (contact@sansoxygen.com)";
+copyright = "Copyright 2011 The Francois One Project Authors (https://github.com/googlefonts/francoisoneFont)";
 customParameters = (
 {
 name = license;
