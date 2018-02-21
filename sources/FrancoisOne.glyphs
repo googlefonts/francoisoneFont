@@ -1,5 +1,8 @@
 {
 .appVersion = "1116";
+DisplayStrings = (
+" "
+);
 classes = (
 {
 automatic = 1;
@@ -133,7 +136,7 @@ value = 1351;
 },
 {
 name = winDescent;
-value = 332;
+value = 359;
 },
 {
 name = hheaLineGap;
@@ -21974,11 +21977,11 @@ unicode = 0020;
 },
 {
 glyphname = nbspace;
-lastChange = "2017-10-13 00:32:11 +0000";
+lastChange = "2018-02-21 11:03:29 +0000";
 layers = (
 {
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 244;
+width = 240;
 }
 );
 unicode = 00A0;
