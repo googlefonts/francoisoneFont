@@ -10,9 +10,5 @@ This project is a fork from the old Google font repository.
 - Fixed tasks listed in [ProjectChecklist.md](https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md) and internal planning spreadsheet.
 - Corrected OpenType features
 - Changed upm from 2048 to 1000
-
-# Todo:
-- Improve README.md
-- Fix glyphs, anchors and components
-- Glyphs marked green have been created from Gunnar. These need a review. Several issues have been spotted.
-- Run fonts through Font bakery and Ship fonts
+- Revision of glyphs, anchors and components.
+- Extended set to cover African Latin alphabets.
