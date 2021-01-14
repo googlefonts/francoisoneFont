@@ -1,5 +1,8 @@
 {
-.appVersion = "1348";
+.appVersion = "1342";
+DisplayStrings = (
+ARKXVE
+);
 classes = (
 {
 automatic = 1;
@@ -19,7 +22,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = vendorID;
-value = newt;
+value = NEWT;
 },
 {
 name = fsType;
@@ -37,10 +40,28 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+nbspace
+);
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2020-12-28 11:48:52 +0000";
-designer = "Vernon Adams";
+designer = "Vernon Adams, Rodrigo Fuenzalida";
 designerURL = "http://www.sansoxygen.com";
 disablesNiceNames = 1;
 familyName = "Francois One";
@@ -1087,12 +1108,110 @@ verticalStems = (
 147,
 155
 );
-weightValue = 140;
+weightValue = 400;
 widthValue = 518;
 xHeight = 563;
 }
 );
 glyphs = (
+{
+glyphname = .notdef;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"207 0 LINE",
+"207 304 LINE",
+"365 304 LINE",
+"365 0 LINE",
+"512 0 LINE",
+"512 750 LINE",
+"365 750 LINE",
+"365 426 LINE",
+"207 426 LINE",
+"207 750 LINE",
+"60 750 LINE",
+"60 0 LINE"
+);
+}
+);
+};
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+paths = (
+{
+closed = 1;
+nodes = (
+"454 0 LINE",
+"454 750 LINE",
+"60 750 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"127 685 LINE",
+"387 685 LINE",
+"387 65 LINE",
+"127 65 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"178 37 LINE",
+"397 708 LINE",
+"338 728 LINE",
+"114 37 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"114 708 LINE",
+"173 728 LINE",
+"397 37 LINE",
+"333 37 LINE"
+);
+}
+);
+width = 572;
+}
+);
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 240;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 0;
+}
+);
+unicode = 0000;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 240;
+}
+);
+unicode = 00A0;
+},
 {
 glyphname = A;
 layers = (
@@ -43165,16 +43284,6 @@ width = 240;
 unicode = 0020;
 },
 {
-glyphname = nbspace;
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 240;
-}
-);
-unicode = 00A0;
-},
-{
 glyphname = thinspace;
 layers = (
 {
@@ -43193,84 +43302,6 @@ width = 0;
 }
 );
 unicode = 200B;
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 240;
-}
-);
-unicode = 000D;
-},
-{
-glyphname = .notdef;
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"207 0 LINE",
-"207 304 LINE",
-"365 304 LINE",
-"365 0 LINE",
-"512 0 LINE",
-"512 750 LINE",
-"365 750 LINE",
-"365 426 LINE",
-"207 426 LINE",
-"207 750 LINE",
-"60 750 LINE",
-"60 0 LINE"
-);
-}
-);
-};
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-paths = (
-{
-closed = 1;
-nodes = (
-"454 0 LINE",
-"454 750 LINE",
-"60 750 LINE",
-"60 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"127 685 LINE",
-"387 685 LINE",
-"387 65 LINE",
-"127 65 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"178 37 LINE",
-"397 708 LINE",
-"338 728 LINE",
-"114 37 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"114 708 LINE",
-"173 728 LINE",
-"397 37 LINE",
-"333 37 LINE"
-);
-}
-);
-width = 572;
-}
-);
 },
 {
 glyphname = cedi;
@@ -54471,16 +54502,6 @@ width = 0;
 );
 },
 {
-glyphname = NULL;
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 0;
-}
-);
-unicode = 0000;
-},
-{
 glyphname = uniA7AE;
 layers = (
 {
@@ -54790,6 +54811,7 @@ width = 414;
 );
 instances = (
 {
+interpolationWeight = 400;
 interpolationWidth = 518;
 instanceInterpolations = {
 "849A9C4C-BF7C-40C5-8614-1FD725A2A379" = 1;
