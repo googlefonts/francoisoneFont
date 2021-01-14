@@ -1,7 +1,8 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-ARKXVE
+ARKXVE,
+"/.notdef"
 );
 classes = (
 {
@@ -14,11 +15,11 @@ copyright = "Copyright 2020 The Francois One Project Authors (https://github.com
 customParameters = (
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
