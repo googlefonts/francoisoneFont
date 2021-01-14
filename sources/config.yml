@@ -1,8 +1,9 @@
 sources:
   - FrancoisOne.glyphs
 familyName: "Francoise One"
-#buildvariable: "None" Tried: "false", "0"
-buildStatic: "true"
+#buildvariable: "None" I've tried: "false", "0", "off", "No", and the below:
+# buildvariable: 
+#   - default: "false"
 # outputDir: "../fonts/"
 ttDir: "../fonts/ttf"
 otDir: "../fonts/otf"
