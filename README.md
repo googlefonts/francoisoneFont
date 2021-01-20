@@ -10,9 +10,39 @@ This project is a fork from the old Google font repository.
 - Fixed tasks listed in [ProjectChecklist.md](https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md) and internal planning spreadsheet.
 - Corrected OpenType features
 - Changed upm from 2048 to 1000
+- Revision of glyphs, anchors and components.
+- Extended set to cover African Latin alphabets.
 
-# Todo:
-- Improve README.md
-- Fix glyphs, anchors and components
-- Glyphs marked green have been created from Gunnar. These need a review. Several issues have been spotted.
-- Run fonts through Font bakery and Ship fonts
+## Building the Fonts
+
+The font is built using fontmake and gftools post processing script. Tools are all python based, so it must be previously installed.
+
+To install all the Python tools into a virtualenv, do the following:
+
+From terminal:
+
+```
+
+cd your/local/project/directory
+
+#once in the project folder create a virtual environment. 
+This step has to be done just once, the first time:
+
+python3 -m venv venv
+
+#activate the virtual environment
+
+source venv/bin/activate
+
+#install the required dependencies
+
+pip install -r requirements.txt
+
+```
+
+Then run the build script in the terminal:
+
+```
+cd sources
+gftools builder config.yml
+```
